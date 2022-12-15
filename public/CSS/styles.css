@@ -1,0 +1,185 @@
+/*datos que me dan predefinidos */
+
+:root{
+    --Amarillo: #EAC926;
+    --Azul: #03264C;
+    --Celeste: #1259c3;
+    --Gris-oscuro: #666;
+    --Gris-claro: #ebebeb;
+    --Verde: #39b54a;
+}
+
+/*estilos generales*/
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: auto;
+    background-color: #ebebeb;
+}
+
+p {font-size: 12px}
+
+h1 {font-size: 24px}
+
+article p.precio{
+    font-size:18px
+}
+
+article p.descuento{
+    font-size:16px
+}
+
+.descripcion{
+    font-size:16px;
+    color: var(--Azul)
+}
+
+.articulo-imagen{
+    object-fit: cover;
+    width:  90%;
+    height: 90%;
+}
+/* termina body*/
+
+
+/* estilos del header*/
+
+header {
+    background-color: #EAC926;
+}
+
+.burger-menu{
+    text-align: center;
+    padding:10px;
+}
+
+#buscador{
+    border-radius: 20%;
+    padding: 10px;
+    color: white;
+    background-color: var(--Celeste);
+    font-size: 2em;
+}
+
+.logobus{
+    display:flex;
+    background-color: #EAC926;
+}
+
+.buscador{
+    align-items: bottom;
+}
+
+.banner{
+        object-fit: cover;
+        max-width: 100%;
+        margin: auto;
+
+}
+
+
+/*termina header*/
+
+/*estilos del main*/
+
+main{
+    background-color: white;
+    max-width: 90%;
+    margin: auto;
+}
+
+.ultima-visita{
+    display:flex;
+    flex-wrap: wrap;
+    min-width: 50%;
+    justify-content: center;
+}
+
+.ofertas{
+    display:flex;
+    flex-wrap: wrap;
+    min-width: 50%;
+    justify-content: center;
+}
+
+.articulo-imagen{
+    width: 500x;
+    height: 450px;
+}
+
+.articulo-principal{
+    border-top: solid 1px #ebebeb;
+    padding: 15px
+}
+
+.articulo-imagen{
+    padding:10px;
+}
+
+.producto{
+    border: solid 1px #ebebeb;
+    box-sizing: border-box;
+    width: auto;
+    margin: 5px;
+    padding: 5px 5px;
+    text-align: justify;
+    display: flex;
+    box-shadow: 0px 0px 15px 5px grey;
+    flex-wrap: wrap;
+}
+
+.descuento{
+    color: var(--Verde);
+    display:flex;
+    flex: 70%;
+}
+
+.precio{
+    display:flex;
+    flex: 30%;
+}
+
+.predes{
+    display:flex;
+}
+
+.seccion{
+    background-color: #ebebeb;
+    padding: 15px
+}
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/*termina main*/
+
+
+/*estilos del footer*/
+
+footer {
+    background-color: white;
+    text-align: center;
+    width:100%;
+    padding: 50px 0px;
+}
+
+.copyright {
+    font-size: 10px;
+    text-align: left;
+}
+
+.titulo{
+    text-align:center
+}
+
+/*termina el footer*/
+
+
+
+

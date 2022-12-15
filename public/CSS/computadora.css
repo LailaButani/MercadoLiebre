@@ -1,0 +1,137 @@
+:root{
+    --Amarillo: #EAC926;
+    --Azul: #03264C;
+    --Celeste: #1259c3;
+    --Gris-oscuro: #666;
+    --Gris-claro: #ebebeb;
+    --Verde: #39b54a;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: auto;
+}
+
+header {
+    background-color: #EAC926;
+}
+
+footer {
+    background-color: white
+}
+
+
+
+p {font-size: 12px}
+
+h1 {font-size: 24px}
+
+article p.precio{
+    font-size:18px
+}
+
+article p.descuento{
+    font-size:16px
+}
+
+.descripcion{
+    font-size:16px;
+    color: var(--Azul)
+}
+
+.articulo-imagen{
+    object-fit: cover;
+    width:  90%;
+    height: 90%;
+}
+
+.burger-menu{
+    text-align: center;
+    padding:10px;
+}
+
+#buscador{
+    border-radius: 20%;
+    padding: 10px;
+    color: white;
+    background-color: var(--Celeste);
+    font-size: 2em;
+}
+
+footer{
+    text-align: center;
+    width:100%;
+    padding: 50px 0px;
+}
+
+.copyright {
+    font-size: 10px;
+    text-align: left;
+}
+
+.titulo{
+    text-align:center
+}
+
+main{
+    background-color: white;
+    max-width: 90%;
+    margin: auto;
+}
+
+body{
+    background-color: #ebebeb;
+}
+
+.articulo-imagen{
+    padding:10px;
+}
+
+.articulo{
+    margin-bottom: 10px;
+}
+
+.articulo-principal{
+    border-top: solid 1px #ebebeb;
+    padding: 15px
+}
+
+.seccion{
+    background-color: #ebebeb;
+    padding: 15px
+}
+
+.producto{
+    border: solid 10px #ebebeb;
+    box-sizing: border-box;
+}
+
+.descuento{
+    color: var(--Verde);
+    display:flex;
+    flex: 70%;
+}
+
+.precio{
+    display:flex;
+    flex: 30%;
+}
+
+.predes{
+    display:flex;
+}
+
+.logobus{
+    display:flex;
+    background-color: #EAC926;
+}
+
+.buscador{
+    align-items: bottom;
+}
+
+.banner{
+        object-fit: cover;
+        max-width: 100%;
+        margin: auto;
+        
+}

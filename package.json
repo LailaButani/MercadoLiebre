@@ -1,0 +1,26 @@
+{
+  "name": "mercadoliebre",
+  "version": "1.0.0",
+  "description": "servidor https cpm node y express",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LailaButani/MercadoLiebre.git"
+  },
+  "author": "Laila Butani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LailaButani/MercadoLiebre/issues"
+  },
+  "homepage": "https://github.com/LailaButani/MercadoLiebre#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "nodemon": "^2.0.20"
+  }
+}

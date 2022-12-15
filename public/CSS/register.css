@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'krub', sans-serif;
+}
+
+html{
+    font-size: 65.5;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    height: 100vh;
+    width: 100%;
+    background-color: #ebebeb;
+}
+
+h2{
+    text-align: center;
+    font-size: 3em;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 900;
+}
+
+form{
+    background-color: #EAC926;
+    width: min(60rem, 100%);
+    border-radius: 2rem;
+    box-shadow: 7px 13px 37px;
+    position: relative;
+    overflow: hidden;
+    margin: 2rem 0 0 0;
+}
+
+legend{
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    padding: 1rem;
+    padding-top: 2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+form fieldset{
+    border:none;
+    padding:2rem;
+}
+
+.campo{
+    margin-bottom: 1rem;
+}
+
+.campo label{
+    color: black;
+    font-weight: bold;
+    margin-bottom: .5rem;
+    padding-left: 2rem;
+    font-size: 2rem;
+    display: block;
+}
+
+.campo input{
+    background-color: white;
+    width: 100%;
+    border: none;
+    border-radius: 2rem;
+    height: 4rem;
+    color: black;
+    text-align: center;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+input::placeholder{
+    color:grey;
+    padding-left: 2rem;
+}
+
+input:hover{
+    background-color:rgba(255,255,255,0.308);
+}
+
+.boton{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botonPrincipal{
+    font-family: Arial, Helvetica, sans-serif;
+    border:none;
+    width: 40%;
+    color: white;
+    font-size: 2rem;
+    border-radius: 2rem;
+    margin:2rem 0 0 0;
+    height:4rem;
+    font-weight: 800;
+    background-color: blue;
+}
+
+h3{
+    text-align: center;
+    margin:1rem 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    cursor:pointer;
+    color:salmon;
+    font-size: 2rem;
+}
+
+form:before{
+    content:'';
+    position: absolute;
+    justify-content: center;
+    height: 100%;
+    background-color: rgba(235,228,228,0.034);
+    width: 6%;
+    box-shadow: 0px 0px 50rem;
+    transform: skew(20deg) translate(-180px);
+    animation:mover 3s linear infinite;
+}
+
+.legend2{
+    text-align: left;
+    font-size: 20px;
+}
