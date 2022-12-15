@@ -4,8 +4,8 @@
   "description": "servidor https cpm node y express",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon src/index.js",
-    "start": "node src/index.js"
+    "test": "nodemon index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
